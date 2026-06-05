@@ -28,3 +28,9 @@ for ($i = 1; $i <= 10; $i++) {
 }
 
 
+
+for ($i = 2; $i <= 30; $i++) {
+   if ($i == 5) continue;
+   if ($i == 8) break;
+   echo "Valeur : $i <br>";
+}
